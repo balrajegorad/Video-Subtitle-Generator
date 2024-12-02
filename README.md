@@ -72,10 +72,10 @@ streamlit run main.py
 
 3. The Streamlit interface will allow you to upload a .mp4 video file. The app will process the video by:
 
-Extracting the audio.
-Transcribing the audio to text using Whisper.
-Generating subtitles in .srt format.
-Adding the subtitles back to the video (either soft or hard subtitles).
-After processing, you’ll be able to download the subtitled video or view it directly in the browser.
+  - Extracting the audio.
+  - Transcribing the audio to text using Whisper.
+  - Generating subtitles in .srt format.
+  - Adding the subtitles back to the video (either soft or hard subtitles).
+  - After processing, you’ll be able to download the subtitled video or view it directly in the browser.
 
 4. After processing, you’ll be able to download the subtitled video or view it directly in the browser.
