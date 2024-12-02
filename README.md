@@ -60,7 +60,7 @@ The project uses the faster-whisper library to handle audio transcription. Insta
 ```bash
 pip install faster-whisper==1.0.3
 ```
-###Running the Application
+## Running the Application
 Once you’ve installed all dependencies, you can run the Streamlit app by following these steps:
 
 1. Start the Streamlit app with the command:
