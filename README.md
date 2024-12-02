@@ -61,21 +61,10 @@ The project uses the faster-whisper library to handle audio transcription. Insta
 pip install faster-whisper==1.0.3
 ```
 ## Running the Application
-Once you’ve installed all dependencies, you can run the Streamlit app by following these steps:
+Once you’ve installed all dependencies, you can run the Streamlit app :
 
 1. Start the Streamlit app with the command:
 
 ```bash
 streamlit run main.py
 ```
-2. Open your browser and go to the URL provided in the terminal (usually http://localhost:8501).
-
-3. The Streamlit interface will allow you to upload a .mp4 video file. The app will process the video by:
-
-  - Extracting the audio.
-  - Transcribing the audio to text using Whisper.
-  - Generating subtitles in .srt format.
-  - Adding the subtitles back to the video (either soft or hard subtitles).
-  - After processing, you’ll be able to download the subtitled video or view it directly in the browser.
-
-4. After processing, you’ll be able to download the subtitled video or view it directly in the browser.
